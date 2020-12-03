@@ -2,4 +2,4 @@
 
 Simple key logger
 
-![Code that will need to be added](Help.png)
+![Code that will need to be added](help.PNG)
